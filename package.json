@@ -1,0 +1,26 @@
+{
+  "name": "lyle-library",
+  "private": false,
+  "version": "0.0.0",
+  "author": "Lyle",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "build": "vue-tsc -b && vite build",
+    "clean": "rimraf ./dist"
+  },
+  "dependencies": {
+    "@vue/test-utils": "^2.4.6",
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "happy-dom": "^15.0.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vite-plugin-dts": "^4.0.3",
+    "vitest": "^2.0.5",
+    "vue-tsc": "^2.0.29"
+  }
+}
