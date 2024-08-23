@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test:watch": "vitest --watch",
-    "test": "vitest",
+    "test": "vitest --run",
     "build": "vue-tsc -b && vite build",
     "clean": "rimraf ./dist",
     "lint": "eslint --max-warnings 5",
