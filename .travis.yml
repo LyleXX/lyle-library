@@ -8,5 +8,5 @@ deploy:
   skip_cleanup: true
   api_key:
     secure: bz1j90BbBvkHA5ySmFKjQnuAsj9lX/NZn84HA3t9ja3z/sr/C7TYskyr+SJqq/IsoMzbKALRZukFk9gOXmBIbd0X7rZYlCShpxxGR1sNWjm3hNC+YEbMD1x1wuInl/OpM0d9c9kqc4Q+ivp7pFa1ClwfMkzDqtqpvOU7HYgPIGVe0QQqGg+HT6W72ubg3AaWAeRHqsGqMuyhd/h6GSUSFN4b3obvE/Rm2hc7AFkybGbkmNyFsEqwx01qj+BGwlWi+TO78w6v/cHxeOFAwEZFLZHEeexqUul5jzsoo92UJO6xL9s7P6+ABXUzk3bJRU4j4Kfkmz1FdEM1rXLG2rQbfsjTwh/i0J2mly88fkY8tyzMB4o7TmMhc9C3vzSPhibTAoCMXINKJIr3+ROX6NJQRxkPOJSlzVFDpzmp66t0xn+ZeaiY4CGvaYa5RzGMJBH1jj+fhWBSKGZaJC9fmPBdoDlS7Z9sRcbERC5H5cQpnXYh88AK9VCgQJT7pPplogU0kyyygrNeBcyXOyMLPxww+xYTxMe6l+b7n0ZvRsh1o9l+/mPct9CQuHKO5Rcgj8ymuLazjYtjfCZJ4EcU0M3ki0XTemXCi89bI4EWPZfRtO3abZ2xBAwBwzhxrDKseGjqL9ZblHEvJO/Tfg23hl/EF4t08a9QmlX3kAO0bW2+n7E=
-on:
-  tags: true
+  on:
+    tags: true
