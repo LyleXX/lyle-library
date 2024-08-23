@@ -10,7 +10,8 @@
     "build": "vue-tsc -b && vite build",
     "clean": "rimraf ./dist",
     "lint": "eslint --max-warnings 5",
-    "prepublishOnly": "npm run lint && npm run test && npm run build"
+    "prepublishOnly": "npm run lint && npm run test && npm run build",
+    "prepare": "husky"
   },
   "dependencies": {
     "@vue/test-utils": "^2.4.6",
@@ -23,6 +24,7 @@
     "eslint-plugin-vue": "^9.27.0",
     "globals": "^15.9.0",
     "happy-dom": "^15.0.0",
+    "husky": "^9.1.5",
     "rimraf": "^6.0.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.2.0",
